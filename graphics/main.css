@@ -1,0 +1,31 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: grey;
+}
+#textBox {
+  background-color: white;
+  position: absolute;
+  right: 0px;
+  top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  clip-path: polygon(0% 0%, 40px 100%, 100% 100%, 100% 0%);
+}
+.text {
+  text-align: center;
+  overflow: hidden;
+  font-size: 45px;
+}
+.countdown {
+  background: #485696;
+  color: white;
+  display: flex;
+  padding-left: 35px;
+  padding-right: 10px;
+  justify-content: flex-end;
+  clip-path: polygon(0% 0%, 40px 100%, 100% 100%, 100% 0%);
+}
+#label {
+  padding-left: 45px;
+}

@@ -1,0 +1,18 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: grey;
+  color: white;
+  font-size: 20px;
+}
+.box {
+  position: absolute;
+  height: 30px;
+  width: 480px;
+  bottom: 0px;
+  right: 0px;
+  background-color: black;
+  border-color: white;
+  border-width: 10px;
+  border-style: solid;
+  box-shadow: -10px 0px grey;
+}
